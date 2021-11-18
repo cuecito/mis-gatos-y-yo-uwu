@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding:0px ;
+}
+
+body{
+    background-color: rgb(29, 179, 91);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#container{
+    width:65% ;
+    margin:auto ;
+    border: 1px solid rgb(0, 0, 0);
+    max-height: 980px;
+}
+
+header{
+    background-color: rgb(132, 12, 212);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: whitesmoke;
+    border: bottom 5px dashed rgb(117, 8, 180);
+    
+}
+
+nav{
+    background-color: rgb(194, 44, 253);
+    height: 40px;
+    border-bottom: 1px solid rgb(135, 24, 226);
+}
+
+nav ul li{
+    float:left;
+    list-style: none;
+    margin: 10px;
+}
+.clearfix{
+    clear: both;
+    
+}
+ #content{
+float: left;
+width: 100%;
+background-color: rgb(27, 219, 130);
+min-height: 600px ;
+
+ }
+ aside{
+     float: right;
+     width: 20%;
+     background: rgb(141, 30, 98);
+     min-width: 100% ;
+ }
+footer{
+    background: rgb(217, 51, 250);
+    color: rgb(16, 195, 201);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
